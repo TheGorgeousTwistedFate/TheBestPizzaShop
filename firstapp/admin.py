@@ -1,5 +1,6 @@
 from django.contrib import admin
-from TheBestPizzaShop.models import PizzaShop
+from firstapp.models import PizzaShop , Pizza
 # Register your models here.
 
-admin.site.registr(PizzaShop)
+admin.site.register(PizzaShop)
+admin.site.register(Pizza)
